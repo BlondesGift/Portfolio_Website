@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anika Albert</title>
+    <link rel="stylesheet" href="general_setting.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="about_me.css">
+    <link rel="stylesheet" href="lebenslauf.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <header>
+        <div class="header_text">
+            <nav>
+                <input type="checkbox" id="toggle_button">
+                <label for="toggle_button">
+                    <span class="material-symbols-rounded">menu</span></label>
+                <ul>
+                    <li><a href="#about_me_section">Über mich</a></li>
+                    <li><a href="#cv_section">Lebenslauf</a></li>
+                    <li><a href="#more_information_section">Mehr Informationen</a></li>
+                </ul>
+            </nav>
+            <h1>Anika Albert, <br> <span style="color: var(--main-brand-color)">Frontend Developer</span></h1>
+            <!-- <p class="subheading">32 Jahre alt | Wohnhaft in Marl</p> -->
+        </div>
+        <div class="circle"><img src="bilder/Anika2.png" alt="Anika Albert im Garten"></div>
+    </header>
+    <section id="about_me_section">
+        <img src="bilder/Lebenslauf_Bild.jpg" alt="Lebenslaufbild von Anika Albert">
+        <div class="about_me_container">
+            <h2>Über mich</h2>
+            <p>32-jährige Frontend Entwicklerin aus Marl. In 2021 habe ich meinen Bachelor-Abschluss in Medieninformatik erworben. 
+                Ich bin eine  motivierte und zielstrebige Person, die stets darum bemüht ist, mein Bestes zu geben und mich weiterzuentwickeln. 
+                Privat versetze ich mich gerne in verschiedene Welten und Geschichten hinein, indem ich verschiedene Bücher lese oder Videospiele spiele.
+                Neben meinen Hobbies habe ich ein breites Interessenspektrum und bin immer offen für neue Herausforderungen und Erfahrungen.
+                Ich bin eine wertvolle Zugabe für jedes Team oder jede Gemeinschaft, in dem ich mich befinde.</p>
+        </div>
+    </section>
+    <section id="cv_section">
+        <h2>Lebenslauf</h2>
+        <div class="flex_container">
+            <div class="card">
+                <h3>Berufliche Karriere</h3>
+                <p><b>Junior Frontend Entwicklerin</b><br>
+                    Startup Werk | April 2022 - Mai 2022<br>
+                    - Erstellung von grafischen Inhalten für die Website eines Professors<br>
+                    - Pflegen von Beiträgen für die Webseite eines Professors<br><br>
+                    <b>Studentische Hilfskraft</b><br>
+                    Westfälische Hochschule Gelsenkirchen | April 2021 - Februar 2022<br>
+                    - Assistentin der Projektleitung<br><br>
+                    <b>Werkstudentin</b><br>
+                    medienPark GmbH & Co. KG | Juli 2018 - März 2020<br><br>
+                    <b>Bürokauffrau</b><br>
+                    Wilhelm Jockenhöfer GmbH & Co. KG | Juli 2014 - September 2016</p>
+            </div>
+            <div class="card">
+                <h3>Bildungsweg</h3>
+                <p><b>Master of Science Internet-Sicherheit (OHNE ABSCHLUSS)</b><br>
+                    Westfälische Hochschule Gelsenkirchen | März 2021 - März 2022<br><br>
+                    <b>Bachelor of Science Medieninformatik</b><br>
+                    Westfälische Hochschule Gelsenkirchen | September 2017 - Juli 2021<br><br>
+                    <b>Ausbildung zur Bürokauffrau</b><br>
+                    Wilhelm Jockenhöfer GmbH & Co. KG | August 2012 - Juli 2014<br><br>
+                    <b>Robert-Schmidt-Berufskolleg</b><br>
+                    Fachhochschulreife | 2009 - 2011</p>
+            </div>
+            <div class="card">
+                <h3>Studienbegleitende Aktivitäten</h3>
+                <p><b>Mitglied der Fachschaftsvertretung Informatik</b><br>
+                    Westfälische Hochschule Gelsenkirchen | 2019 - 2021<br><br>
+                    <b>Orientierungstutor im Fachbereich Kommunikation und
+                    Informatik</b><br>
+                    Westfälische Hochschule Gelsenkirchen | 2019 & 2020<br><br>
+                    <b>Institut zur Förderung der Studierfähigkeit Tutor</b><br>
+                    Westfälische Hochschule Gelsenkirchen | 2018</p>
+            </div>
+            <div class="card">
+                <h3>IT Kenntnisse</h3>
+                <p><b>Programmiersprachen</b> | Java, PHP<br><br>
+                    <b>Web Development</b>| Angular 2, HTML 5, CSS 5, JavaScript<br><br>
+                    <b>Datenbanken</b> | SQL, MariaDB<br><br>
+                    <b>IDE</b> | Netbeans, Visual Studio, PHP Storm<br><br>
+                    <b>Sonstiges</b> | Erfahrungen mit Adobe Photoshop, Illustrator, Premiere Pro</p>
+            </div>
+        </div>
+        <div class="flex_container">
+            <div class="card_button">
+                <a href="/dateien/Lebenslauf_2022.pdf" target="_blank"><b>Lebenslauf herunterladen</b></a>
+        </div>
+        </div>
+    </section>
+    <footer id="more_information_section">
+        <h2>Mehr Informationen</h2>
+        <div class="grid_container">
+            <div id="item1" class="grid_item">
+                <a href="https://www.linkedin.com/in/anika-albert-4b873020b/" target="_blank"><img src="bilder/linkedin-svgrepo-com.svg" alt="LinkedIn Icon"></a>
+                <h3>LinkedIn</h3>
+            </div>
+            <div id="item2" class="grid_item">
+                <a href="https://github.com/BlondesGift" target="_blank"><img src="bilder/github-svgrepo-com.svg" alt="Github Icon"></a>
+                <h3>Github</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
